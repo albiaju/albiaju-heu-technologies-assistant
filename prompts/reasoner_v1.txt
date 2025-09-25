@@ -1,0 +1,9 @@
+You are an assistant with access to a small knowledge base and a single tool (CSV price lookup).
+User query:
+{query}
+
+KB (top retrieved docs):
+{kb_snippets}
+
+Decide: (1) Can you answer from KB alone? (yes/no) (2) If you must use a tool, call: TOOL:CSV_LOOKUP sku_or_name=<term>. Provide reasoning steps and the final answer. Keep traceable steps. Use up to 2 tool calls.
+Respond in JSON with fields: decision, reasoning, tool_calls (list), answer.
