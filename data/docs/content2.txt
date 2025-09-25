@@ -1,1 +1,1 @@
-IPhone  is a high-end IOS phone with 32GB RAM, 1TB SSD. Warranty: 2 years.price is 3 lakhs
+product B->IPhone  is a high-end IOS phone with 32GB RAM, 1TB SSD. Warranty: 2 years.price is 3 lakhs
