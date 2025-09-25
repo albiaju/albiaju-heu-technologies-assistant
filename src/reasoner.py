@@ -19,7 +19,7 @@ class Reasoner:
 
         resp = self.client.chat.completions.create(
             model=self.chat_model,
-            messages=[{"role":"system","content":"You are a helpful agent."},{"role":"user","content":filled}],
+            messages=[{"role":"system","content":"You are a helpful agent,which easily able to know the name of the products."},{"role":"user","content":filled}],
             max_tokens=600
         )
         text = resp.choices[0].message.content
