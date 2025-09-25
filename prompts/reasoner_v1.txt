@@ -13,4 +13,4 @@ Example format:
   "reasoning": "KB does not contain the price, need to call CSV lookup",
   "tool_calls": ["TOOL:CSV_LOOKUP sku_or_name=Product A"],
   "answer": "Product A costs ₹45,000."
-}}
+}} 
