@@ -44,4 +44,4 @@ OPENAI_API_KEY=your_api_key_here
 
 * Do not commit your `.env` file to version control.
 * You can run without the CSV file, but price lookup will not work.
-* This is a minimal educational/demo project, not production code.
+* This is a minimal educational/demo project, not production code. 
