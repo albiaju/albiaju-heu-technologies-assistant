@@ -9,11 +9,11 @@ Task:
 3) Provide a final short answer (1-3 sentences) and a confidence score 0-1.
 
 Return JSON:
-{
+{{
   "decision": "KB" | "TOOL",
   "requested_tool_calls": [...],
   "kb_citations": [...],
   "reasoning_steps": "...",
   "answer": "...",
   "confidence": 0.0
-}
+}}

@@ -5,7 +5,6 @@ def run_demo():
     C = Controller()
     queries = [
         "What is the price of Product A?",
-     
     ]
     for q in queries:
         res = C.handle_query(q, prompt_version="v1")
